@@ -31,6 +31,12 @@ Here's a sample response for a **single business** from the search results:
 }
 ```
 
+## ▶️ Video Tutorial
+
+Watch the complete API walkthrough:
+
+[![Yelp Scraper API Walkthrough](https://raw.githubusercontent.com/omkarcloud/yelp-scraper/master/yelp-scraper-youtube-video-preview.png)](https://www.youtube.com/watch?v=fE3jYQwRE0g)
+
 ## Get API Key
 
 Create an account at [omkar.cloud](https://www.omkar.cloud/auth/sign-up?redirect=/api-key) to get your API key.
