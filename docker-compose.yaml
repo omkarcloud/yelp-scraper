@@ -1,0 +1,12 @@
+services:
+  yelp-scraper:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+      # Optional — business details, reviews, photos, users and events work without them.
+      # Search, search filters, menus and related businesses need both:
+      # - YELP_PROXY=http://user-session-{session}:pass@host:port
+      # - CAPSOLVER_API_KEY=CAP-...
